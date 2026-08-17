@@ -1,0 +1,19 @@
+v1.0 - 2026-08-13
+-----------------
+- First stable release
+- Handles credits and payments
+- Handles December/January year rollover
+- Added location column
+- Implemented location extraction based on PDF spacing
+- Reduced MIN_LOCATION_GAP to 5
+
+Known issues:
+- Location extraction not perfect, must change extraction method
+
+v2.0 - 2026-08-17
+
+- Replaced gap-based description/location splitting with coordinate-based column splitting
+- Description and location are now separated using PDF X positions
+- Removed dependency on MIN_LOCATION_GAP for location parsing
+- Tested successfully with multiple statements
+- Produces Excel-like description/location separation

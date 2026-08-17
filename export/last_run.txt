@@ -1,0 +1,6 @@
+Run Date: 2026-08-17 14:21:12
+
+Status: SUCCESS
+PDF: 06-############0000-juillet-2025.pdf
+CSV: 06-############0000-juillet-2025.csv
+Transactions Parsed: 92

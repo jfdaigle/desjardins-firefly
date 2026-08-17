@@ -1,0 +1,11 @@
+services:
+  desjardins-parser:
+    build: .
+    container_name: desjardins-parser
+
+    volumes:
+      - ./parser.py:/app/parser.py
+      - ./import:/app/input
+      - ./export:/app/output
+
+    restart: "no"
