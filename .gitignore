@@ -1,0 +1,22 @@
+# Private statement files
+input/
+output/
+import/
+export/
+
+# PDFs and generated CSVs
+*.pdf
+*.csv
+
+# Logs and status files
+converter.log
+last_run.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
