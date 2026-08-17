@@ -23,6 +23,7 @@ Other Desjardins cards may use different PDF layouts and may require coordinate 
 date,description,location,amount
 2026-07-10,COSTCO ESSENCE W516,QUEBEC QC,74.70
 2026-07-31,PAIEMENT CAISSE,,-5163.32
+```
 
 ## Disclaimer
 
